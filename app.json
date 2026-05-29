@@ -39,6 +39,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "8dc6b6da-dba9-4765-a15c-721dd88edc2b"
+      }
+    },
+    "owner": "lumink"
   }
 }
