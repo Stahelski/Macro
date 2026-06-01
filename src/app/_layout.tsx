@@ -11,9 +11,4 @@ export default function RootLayout() {
   );
 }
 // https://www.youtube.com/watch?v=XCifkDC0yXA
-//! 51:31
-
-// Jobb
-//! https://www.finn.no/job/ad/461526633
-//! https://www.finn.no/job/ad/464513965
-//!
+//! 1:16:48
