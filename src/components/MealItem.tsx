@@ -9,6 +9,7 @@ import {
 } from "react-native";
 import { deleteMeal } from "@/storage/meals";
 import { colors } from "@/styles/global";
+import * as Haptics from "expo-haptics";
 
 type MealItemProps = {
   id: string;
@@ -18,7 +19,6 @@ type MealItemProps = {
   carbs: number;
   fat: number;
   onDelete: () => void;
-  
 };
 
 export default function MealItem({
@@ -40,6 +40,7 @@ export default function MealItem({
       { text: "Cancel", style: "cancel" },
       { text: "Delete", style: "destructive", onPress: onDelete },
     ]);
+    Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
   };
 
   return (
